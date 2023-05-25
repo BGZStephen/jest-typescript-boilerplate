@@ -1,4 +1,4 @@
-# Jest Testing Boilerplate
+# Jest TypeScript Boilerplate
 
 A small repository containing a working implementation of TypeScript and Jest, with a basic configuration to get started with.
 
