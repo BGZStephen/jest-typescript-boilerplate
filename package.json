@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "A boilerplate codebase to run jest tests on a typescript codebase",
   "scripts": {
-    "unit-test": "jest --verbose -c jest.unit.config.js",
-    "component-test": "jest --verbose -c jest.component.config.js",
-    "integration-test": "jest --verbose -c jest.integration.config.js"
+    "unit-test": "jest --verbose --passWithNoTests -c jest.unit.config.js",
+    "component-test": "jest --verbose --passWithNoTests -c jest.component.config.js",
+    "integration-test": "jest --verbose --passWithNoTests -c jest.integration.config.js"
   },
   "dependencies": {
     "@types/jest": "^29.5.1",
